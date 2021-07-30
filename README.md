@@ -27,7 +27,7 @@ This version only prints to sys.stdout and is not bufferred.  However, the other
 
 The package also adds more keyword arguments:
  * delay - default: 0.1 / float \[0,inf) - Specifies the time delay at which characters are printed in order in seconds.
- * color - default: 88 / innt 
- * startAfter -
- * maxCharMod -
- * useColor -
+ * color - default: 88 / int or integer string - Specifies the ansi-color number to use.
+ * startAfter - default: 0 / int - Number of characters to start messing things up after, allowing for part of the string to come out clear.  If this number is greater than the length of the string, the number is reset to zero.
+ * maxCharMod - default: 0.5 / float \[0.05,1\] - The maximum number characters we are allowed to modified.  This number will always be at least 1 character.
+ * useAnsi - default: False on windows, True otherwise / boolean - On windows systems, many terminals don't handle ansi well.  So by default windows systems will turn off the color and flashing.  Use this to force ansi styling on or off.
