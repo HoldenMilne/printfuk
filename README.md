@@ -1,5 +1,5 @@
 # printfuk
-Completely override your python print function with complete garbage that sometimes looks approximately correct
+Completely override your python print function with complete garbage that sometimes looks approximately correct.  This package was made as part of a tiktok I made https://www.tiktok.com/@conspiracy_theorem/video/6990086562209877254?is_from_webapp=1&sender_device=pc&web_id=7038118444622038533
 
 # How to install
 Simply install the package either by downloading this git repository and moving the python source code where it needs to or install it using pip.
